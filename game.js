@@ -3,7 +3,6 @@
 const allForm = document.querySelector("#enter");
 const genInput = document.querySelector("#max");
 const guessInput = document.querySelector("#guess input");
-const btn = document.querySelector("#guess button");
 const youChosen = document.querySelector("#choose span:first-child");
 const machineChosen = document.querySelector("#choose span:last-child");
 const result = document.querySelector("#result");
