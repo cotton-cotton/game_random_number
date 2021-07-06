@@ -16,7 +16,6 @@ function buttonClick(event) {
 	event.preventDefault();
 	let max = document.getElementById("max").value;
 	const guessInputNumber = Number(guessInput.value);
-	const genInputNumber = Number(genInput.value);
 	const randomNumber = genRandom(0, max);
 	youChosen.innerText = `You chose:${guessInputNumber}`;
 	machineChosen.innerText = `, machine chose: ${randomNumber}`;
